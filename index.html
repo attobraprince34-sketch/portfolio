@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Attobra Prince — Développeur Backend & Créateur d'AttoVisio</title>
+<meta name="description" content="Portfolio d'Attobra Prince Aman Junior, développeur backend Python/Django, formateur et créateur de la bibliothèque AttoVisio." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<div class="noise"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#home" class="logo"><span>AP.</span>dev</a>
+    <nav>
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#projects">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Me contacter →</a>
+  </div>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-grid">
+      <div class="hero-left">
+        <span class="badge"><span class="dot"></span> Disponible pour vos projets</span>
+        <h1 class="hero-title">
+          <span class="line reveal">Backend</span>
+          <span class="line reveal"><em>Developer</em></span>
+          <span class="line reveal">& Créateur.</span>
+        </h1>
+        <p class="hero-sub reveal">
+          Je suis <strong>Attobra Prince Aman Junior</strong>, développeur backend Python / Django, formateur, et créateur de la bibliothèque open-source <strong>AttoVisio</strong>. Je conçois des systèmes robustes, élégants et bien pensés.
+        </p>
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+          <a href="#contact" class="btn btn-ghost">Travaillons ensemble</a>
+        </div>
+        <div class="hero-meta reveal">
+          <div><strong>3+</strong><span>Projets majeurs</span></div>
+          <div><strong>1</strong><span>Lib publiée sur PyPI</span></div>
+          <div><strong>∞</strong><span>Lignes de code</span></div>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="profile-card">
+          <!-- Emplacement pour la photo de profil -->
+          <div class="profile-img" id="profileSlot">
+            <img src="assets/profile.png" alt="Attobra Prince Aman Junior" class="profile-image" />
+          </div>
+          <div class="profile-info">
+            <div class="profile-name">Prince Attobra</div>
+            <div class="profile-role">Backend Engineer · Django · Python</div>
+            <div class="profile-tags">
+              <span>Python</span><span>Django</span><span>DRF</span><span>PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="floating tag-1">{ code: "clean" }</div>
+        <div class="floating tag-2">pip install attovisio</div>
+        <div class="floating tag-3">SELECT * FROM dreams;</div>
+      </div>
+    </div>
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>Python</span><span>•</span><span>Django</span><span>•</span><span>DRF</span><span>•</span><span>PostgreSQL</span><span>•</span><span>React</span><span>•</span><span>Flask</span><span>•</span><span>Web Scraping</span><span>•</span><span>Tailwind</span><span>•</span><span>Algorithmes</span><span>•</span>
+        <span>Python</span><span>•</span><span>Django</span><span>•</span><span>DRF</span><span>•</span><span>PostgreSQL</span><span>•</span><span>React</span><span>•</span><span>Flask</span><span>•</span><span>Web Scraping</span><span>•</span><span>Tailwind</span><span>•</span><span>Algorithmes</span><span>•</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <span class="eyebrow">01 — À propos</span>
+      <div class="about-grid">
+        <h2 class="section-title">Je transforme des idées<br/>en <em>systèmes vivants</em>.</h2>
+        <div class="about-text">
+          <p>Passionné par la programmation depuis mes premières lignes de code, je me suis spécialisé dans le développement backend avec <strong>Django</strong> et l'écosystème Python. Mon obsession : écrire du code propre, documenté, testé.</p>
+          <p>En parallèle, je <strong>forme</strong> des développeurs au backend Django et j'ai publié <strong>AttoVisio</strong>, une bibliothèque qui rend visibles les actions invisibles en informatique : appels système, fichiers, réseau, ressources, sécurité.</p>
+          <a href="https://github.com/attobraprince34-sketch" target="_blank" class="link-arrow">Découvrir mon GitHub →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <span class="eyebrow">02 — Stack technique</span>
+      <h2 class="section-title">Les outils que je <em>maîtrise</em>.</h2>
+      <div class="skills-grid">
+        <div class="skill-card"><div class="skill-num">01</div><h3>Python</h3><p>Langage de cœur, utilisé au quotidien.</p></div>
+        <div class="skill-card"><div class="skill-num">02</div><h3>Django & DRF</h3><p>APIs REST robustes et applications web complètes.</p></div>
+        <div class="skill-card"><div class="skill-num">03</div><h3>PostgreSQL & SQL</h3><p>Modélisation, optimisation, requêtes avancées.</p></div>
+        <div class="skill-card"><div class="skill-num">04</div><h3>Flask</h3><p>Microservices et prototypes rapides.</p></div>
+        <div class="skill-card"><div class="skill-num">05</div><h3>JavaScript & React</h3><p>Interfaces modernes et interactives.</p></div>
+        <div class="skill-card"><div class="skill-num">06</div><h3>Web Scraping</h3><p>Extraction de données structurées à grande échelle.</p></div>
+        <div class="skill-card"><div class="skill-num">07</div><h3>Tailwind & Bootstrap</h3><p>Design systems efficaces et responsives.</p></div>
+        <div class="skill-card"><div class="skill-num">08</div><h3>Git & GitHub</h3><p>Workflow collaboratif, CI/CD, open-source.</p></div>
+        <div class="skill-card"><div class="skill-num">09</div><h3>Algorithmes</h3><p>Réflexion structurée et résolution de problèmes.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <span class="eyebrow">03 — Projets sélectionnés</span>
+      <h2 class="section-title">Du code <em>qui vit</em>.</h2>
+
+      <article class="project">
+        <div class="project-info">
+          <div class="project-num">01 / 03</div>
+          <h3>BENMS — Marketplace immobilier & véhicules</h3>
+          <p>Plateforme complète de vente de terrains et de véhicules avec tableau de bord administrateur, statistiques en temps réel, gestion utilisateurs et système de marketplace.</p>
+          <ul class="tech"><li>Django</li><li>PostgreSQL</li><li>React</li><li>Tailwind</li></ul>
+        </div>
+        <div class="project-visual">
+          <img src="assets/project-benms.jpg" alt="BENMS dashboard administration" loading="lazy"/>
+        </div>
+      </article>
+
+      <article class="project reverse">
+        <div class="project-info">
+          <div class="project-num">02 / 03</div>
+          <h3>AttoVisio — Bibliothèque Python (PyPI)</h3>
+          <p>Une bibliothèque open-source que j'ai conçue et publiée sur PyPI. Elle rend <em>visibles</em> les actions invisibles en informatique : appels système, fichiers, réseau, ressources, sécurité.</p>
+          <ul class="tech"><li>Python 3.8+</li><li>PyPI</li><li>CLI</li><li>Open Source</li></ul>
+          <a href="#" class="link-arrow">pip install attovisio →</a>
+        </div>
+        <div class="project-visual">
+          <img src="assets/project-attovisio.jpg" alt="AttoVisio package PyPI" loading="lazy"/>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-info">
+          <div class="project-num">03 / 03</div>
+          <h3>DigitalCouture — Plateforme couture en ligne</h3>
+          <p>Application web dédiée aux couturiers et clients : catalogue de modèles, profils de couturiers, recherche intelligente et paiement en FCFA.</p>
+          <ul class="tech"><li>Django</li><li>DRF</li><li>JavaScript</li><li>Bootstrap</li></ul>
+        </div>
+        <div class="project-visual">
+          <img src="assets/project-digitalcouture.jpg" alt="DigitalCouture catalogue" loading="lazy"/>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- TEACHING -->
+  <section class="section teaching">
+    <div class="container teaching-grid">
+      <div>
+        <span class="eyebrow">04 — Formation</span>
+        <h2 class="section-title">Je forme aussi la <em>relève</em>.</h2>
+      </div>
+      <div class="teaching-text">
+        <p>J'enseigne le <strong>développement backend avec Django</strong> à des étudiants et passionnés. De la modélisation de base de données aux APIs REST avec DRF, jusqu'au déploiement, j'accompagne chacun à devenir un développeur autonome et rigoureux.</p>
+        <a href="#contact" class="link-arrow">Réserver une session de formation →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <span class="eyebrow">05 — Contact</span>
+      <h2 class="contact-title">Construisons<br/><em>quelque chose</em>.</h2>
+      <a href="mailto:itprince898@gmail.com" class="contact-mail">itprince898@gmail.com</a>
+      <div class="socials">
+        <a href="https://github.com/attobraprince34-sketch" target="_blank">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/prince-attobra-77513a382" target="_blank">LinkedIn ↗</a>
+        <a href="mailto:itprince898@gmail.com">Email ↗</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div>© 2026 Attobra Prince Aman Junior. Tous droits réservés.</div>
+    <div>Conçu & développé avec ❤ — HTML · CSS · JS</div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
